@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B897D4001EF56C8900056ACC /* SimpleTest.feature in Resources */ = {isa = PBXBuildFile; fileRef = B897D3FF1EF56C8900056ACC /* SimpleTest.feature */; };
 		CE66EE2A1ED258EE00051BA7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE66EE291ED258EE00051BA7 /* AppDelegate.swift */; };
 		CE66EE2C1ED258EE00051BA7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE66EE2B1ED258EE00051BA7 /* ViewController.swift */; };
 		CE66EE2F1ED258EE00051BA7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE66EE2D1ED258EE00051BA7 /* Main.storyboard */; };
@@ -76,6 +77,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		B897D3FF1EF56C8900056ACC /* SimpleTest.feature */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = SimpleTest.feature; sourceTree = "<group>"; };
 		CE66EE261ED258EE00051BA7 /* TestKitExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestKitExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE66EE291ED258EE00051BA7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CE66EE2B1ED258EE00051BA7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -181,6 +183,7 @@
 		CE66EE481ED258EE00051BA7 /* TestKitExampleUITests */ = {
 			isa = PBXGroup;
 			children = (
+				B897D3FF1EF56C8900056ACC /* SimpleTest.feature */,
 				CE66EE491ED258EE00051BA7 /* TestKitExampleUITests.swift */,
 				CE66EE4B1ED258EE00051BA7 /* Info.plist */,
 				CE66EE701ED28DC200051BA7 /* Example.feature */,
@@ -330,6 +333,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B897D4001EF56C8900056ACC /* SimpleTest.feature in Resources */,
 				CE66EE711ED28DC200051BA7 /* Example.feature in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

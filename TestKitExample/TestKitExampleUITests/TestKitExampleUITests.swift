@@ -14,5 +14,8 @@ class TestKitExampleUITests: XCTestCase {
     func testExample() {
         testFeature(name: "Example")
     }
-    
+	
+	func testSimpleTestFeature(){
+		testFeature(name: "SimpleTest")
+	}
 }
