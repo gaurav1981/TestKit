@@ -270,18 +270,18 @@
 				TargetAttributes = {
 					CE66EE251ED258EE00051BA7 = {
 						CreatedOnToolsVersion = 8.3.2;
-						DevelopmentTeam = XN5NUHVH4V;
+						DevelopmentTeam = 6LPKYU65PQ;
 						ProvisioningStyle = Automatic;
 					};
 					CE66EE391ED258EE00051BA7 = {
 						CreatedOnToolsVersion = 8.3.2;
-						DevelopmentTeam = XN5NUHVH4V;
+						DevelopmentTeam = 6LPKYU65PQ;
 						ProvisioningStyle = Automatic;
 						TestTargetID = CE66EE251ED258EE00051BA7;
 					};
 					CE66EE441ED258EE00051BA7 = {
 						CreatedOnToolsVersion = 8.3.2;
-						DevelopmentTeam = XN5NUHVH4V;
+						DevelopmentTeam = 6LPKYU65PQ;
 						ProvisioningStyle = Automatic;
 						TestTargetID = CE66EE251ED258EE00051BA7;
 					};
@@ -449,7 +449,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -494,7 +494,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -507,10 +507,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = XN5NUHVH4V;
+				DEVELOPMENT_TEAM = 6LPKYU65PQ;
 				INFOPLIST_FILE = TestKitExample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = io.danielhall.TestKitExample;
+				PRODUCT_BUNDLE_IDENTIFIER = io.danielhall.TestKitExample.LocalVersion;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -520,10 +521,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = XN5NUHVH4V;
+				DEVELOPMENT_TEAM = 6LPKYU65PQ;
 				INFOPLIST_FILE = TestKitExample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = io.danielhall.TestKitExample;
+				PRODUCT_BUNDLE_IDENTIFIER = io.danielhall.TestKitExample.LocalVersion;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -534,7 +536,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
-				DEVELOPMENT_TEAM = XN5NUHVH4V;
+				DEVELOPMENT_TEAM = 6LPKYU65PQ;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/TestKitExampleTests",
@@ -553,7 +555,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
-				DEVELOPMENT_TEAM = XN5NUHVH4V;
+				DEVELOPMENT_TEAM = 6LPKYU65PQ;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/TestKitExampleTests",
@@ -571,7 +573,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				DEVELOPMENT_TEAM = XN5NUHVH4V;
+				DEVELOPMENT_TEAM = 6LPKYU65PQ;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/TestKitExampleUITests",
@@ -589,7 +591,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				DEVELOPMENT_TEAM = XN5NUHVH4V;
+				DEVELOPMENT_TEAM = 6LPKYU65PQ;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/TestKitExampleUITests",
@@ -622,6 +624,7 @@
 				CE66EE501ED258EE00051BA7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CE66EE511ED258EE00051BA7 /* Build configuration list for PBXNativeTarget "TestKitExampleTests" */ = {
 			isa = XCConfigurationList;
@@ -630,6 +633,7 @@
 				CE66EE531ED258EE00051BA7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CE66EE541ED258EE00051BA7 /* Build configuration list for PBXNativeTarget "TestKitExampleUITests" */ = {
 			isa = XCConfigurationList;
@@ -638,6 +642,7 @@
 				CE66EE561ED258EE00051BA7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
