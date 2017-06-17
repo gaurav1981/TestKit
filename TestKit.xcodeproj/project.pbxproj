@@ -11,7 +11,7 @@
 			isa = PBXAggregateTarget;
 			buildConfigurationList = CE66EE5C1ED25B3F00051BA7 /* Build configuration list for PBXAggregateTarget "TestKitUniversalFramework" */;
 			buildPhases = (
-				CE66EE611ED25B5C00051BA7 /* ShellScript */,
+				CE66EE611ED25B5C00051BA7 /* Universal Framework Script */,
 			);
 			dependencies = (
 				CE66EE601ED25B5800051BA7 /* PBXTargetDependency */,
@@ -239,13 +239,14 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		CE66EE611ED25B5C00051BA7 /* ShellScript */ = {
+		CE66EE611ED25B5C00051BA7 /* Universal Framework Script */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
+			name = "Universal Framework Script";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
