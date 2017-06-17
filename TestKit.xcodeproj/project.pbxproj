@@ -197,7 +197,7 @@
 					};
 					CE66EE5B1ED25B3F00051BA7 = {
 						CreatedOnToolsVersion = 8.3.2;
-						DevelopmentTeam = XN5NUHVH4V;
+						DevelopmentTeam = 6LPKYU65PQ;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -482,7 +482,7 @@
 		CE66EE5D1ED25B3F00051BA7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				DEVELOPMENT_TEAM = XN5NUHVH4V;
+				DEVELOPMENT_TEAM = 6LPKYU65PQ;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -490,7 +490,7 @@
 		CE66EE5E1ED25B3F00051BA7 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				DEVELOPMENT_TEAM = XN5NUHVH4V;
+				DEVELOPMENT_TEAM = 6LPKYU65PQ;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
