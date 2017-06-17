@@ -5,6 +5,7 @@
 #
 #  Created by gaurav gupta on 17/06/17.
 #  Copyright © 2017 Daniel Hall. All rights reserved.
+set -x
 
 UNIVERSAL_OUTPUTFOLDER=${BUILD_DIR}/${CONFIGURATION}-universal
 
