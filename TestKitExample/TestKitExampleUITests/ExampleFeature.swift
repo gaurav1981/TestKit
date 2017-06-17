@@ -43,11 +43,17 @@ class ExampleFeature: TestKitFeature {
     }
     
     override static func registerStepHandlers() {
-        TestKit.given("I launch the app") {
+		/*
+			Step handler : Given
+		*/
+		TestKit.given("I launch the app") {
             _ in
             XCUIApplication().launchWithTestKitEnabled()
         }
-        
+		
+		/*
+			Step handlers : When
+		*/
         TestKit.when("I tap the <buttonTitle> button$") {
             try tapButton($0.matchedValues["buttonTitle"])
         }

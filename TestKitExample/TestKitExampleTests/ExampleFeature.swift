@@ -41,7 +41,11 @@ var screenTable: [String: UIViewController.Type] = [
 
 class ExampleFeature: TestKitFeature {
     override static func registerStepHandlers() {
-        TestKit.then("the <buttonIdentifier> button is disabled") {
+		/*
+			Step handler : Then
+		*/
+
+		TestKit.then("the <buttonIdentifier> button is disabled") {
             guard let button = TestKit.views(ofType: UIButton.self, accessibilityIdentifier: $0.matchedValues["buttonIdentifier"]).first else {
                 throw NSError(description: "Couldn't find button in current view hierarchy with the accessibility identifier '\($0.matchedValues["buttonIdentifier"])'")
             }
